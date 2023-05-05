@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}lstlisting\PYG{n+nb}{\PYGZcb{}}[language=Java, caption=Кириллица в листинге не имеет подсветки]
+class HelloWorldApp \PYG{n+nb}{\PYGZob{}}
+    public static void main(String[] args) \PYG{n+nb}{\PYGZob{}}
+        System.out.println(\PYGZdq{}Hello, мир!\PYGZdq{}); // Коментарий на кириллице
+        for (int i = 0; i \PYGZlt{} 100; ++i) \PYG{n+nb}{\PYGZob{}}
+            System.out.println(i); // Latin comment
+        \PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}lstlisting\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

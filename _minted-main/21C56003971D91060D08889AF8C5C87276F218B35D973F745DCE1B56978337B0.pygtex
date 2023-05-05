@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{programmers} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}I\PYGZsq{}m an expert Python Programmer\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s+s2}{\PYGZdq{}I\PYGZsq{}m an expert Javascript Programmer\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s+s2}{\PYGZdq{}I\PYGZsq{}m a professional Python Programmer\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}I\PYGZsq{}m a beginner C++ Programmer\PYGZdq{}}
+\PYG{p}{]}
+\PYG{c+c1}{\PYGZsh{}method 1}
+\PYG{k}{for} \PYG{n}{p} \PYG{o+ow}{in} \PYG{n}{programmers}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{p}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Python\PYGZdq{}}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}method 2}
+\PYG{k}{for} \PYG{n}{p} \PYG{o+ow}{in} \PYG{n}{programmers}\PYG{p}{:}
+    \PYG{k}{if} \PYG{l+s+s2}{\PYGZdq{}Python\PYGZdq{}} \PYG{o+ow}{in} \PYG{n}{p}\PYG{p}{:}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}
+\end{Verbatim}

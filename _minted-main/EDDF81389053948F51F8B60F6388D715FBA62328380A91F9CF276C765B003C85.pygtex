@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[h!]
+\PYG{k}{\PYGZbs{}centering}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|c|c|\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}hline}
+    Столбец1 \PYG{n+nb}{\PYGZam{}} Столбец2 \PYG{n+nb}{\PYGZam{}} Столбец3 \PYG{n+nb}{\PYGZam{}} Столбец4 \PYG{k}{\PYGZbs{}\PYGZbs{}} [0.5ex]
+        \PYG{k}{\PYGZbs{}hline}
+        \PYG{k}{\PYGZbs{}multirow}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}5em\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Несколько строк\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZam{}} 6 \PYG{n+nb}{\PYGZam{}} 87837 \PYG{n+nb}{\PYGZam{}} 787 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{n+nb}{\PYGZam{}}  7 \PYG{n+nb}{\PYGZam{}} 78 \PYG{n+nb}{\PYGZam{}} 5415 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{n+nb}{\PYGZam{}} 545 \PYG{n+nb}{\PYGZam{}} 778 \PYG{n+nb}{\PYGZam{}} 7507 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{n+nb}{\PYGZam{}} 545 \PYG{n+nb}{\PYGZam{}} 18744 \PYG{n+nb}{\PYGZam{}} 7560 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{n+nb}{\PYGZam{}} 88 \PYG{n+nb}{\PYGZam{}} 788 \PYG{n+nb}{\PYGZam{}} 6344 \PYG{k}{\PYGZbs{}\PYGZbs{}} [1ex]
+ \PYG{k}{\PYGZbs{}hline}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Пример работы с таблицей\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}table:1\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

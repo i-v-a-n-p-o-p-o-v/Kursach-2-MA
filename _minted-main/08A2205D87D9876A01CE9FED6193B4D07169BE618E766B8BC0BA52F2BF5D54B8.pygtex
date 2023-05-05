@@ -1,0 +1,57 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+package com.pract4;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Main extends JFrame \PYGZob{}
+
+    private static final String Team1 = \PYGZdq{}Team Spirit\PYGZdq{};
+    private static final String Team2 = \PYGZdq{}PSG\PYGZdq{};
+
+    JButton buttonMilan = new JButton(Team1);
+    JButton buttonRealMadrid = new JButton(Team2);
+    JLabel jlResult = new JLabel(\PYGZdq{}Result: 0 X 0\PYGZdq{});
+    JLabel jlLastScorer = new JLabel(\PYGZdq{}Last Scorer: N/A\PYGZdq{});
+    Label lWinner = new Label(\PYGZdq{}Winner: DRAW\PYGZdq{});
+    int team1Score = 0;
+    int team2Score = 0;
+    String lastScorer = \PYGZdq{}N/A\PYGZdq{};
+    String winner = \PYGZdq{}N/A\PYGZdq{};
+
+    public Main() \PYGZob{}
+        super(\PYGZdq{}International 10\PYGZdq{});
+        setSize(500, 500);
+        setLayout(new FlowLayout());
+        add(buttonMilan);
+        add(buttonRealMadrid);
+        add(jlResult);
+        add(jlLastScorer);
+        add(lWinner);
+        buttonMilan.addActionListener(ae \PYGZhy{}\PYGZgt{} \PYGZob{}
+            team1Score++;
+            jlLastScorer.setText(\PYGZdq{}Last Scorer: \PYGZdq{} + Team1);
+            onClick();
+        \PYGZcb{});
+        buttonRealMadrid.addActionListener(ae \PYGZhy{}\PYGZgt{} \PYGZob{}
+            team2Score++;
+            jlLastScorer.setText(\PYGZdq{}Last Scorer: \PYGZdq{} + Team2);
+            onClick();
+        \PYGZcb{});
+    \PYGZcb{}
+
+    private void onClick() \PYGZob{}
+        jlResult.setText(\PYGZdq{}Result: \PYGZdq{} + team1Score + \PYGZdq{} X \PYGZdq{} + team2Score);
+        lWinner.setText(\PYGZdq{}Winner: DRAW\PYGZdq{});
+        if (team1Score \PYGZgt{} team2Score) \PYGZob{}
+            lWinner.setText(\PYGZdq{}Winner: \PYGZdq{} + Team1);
+        \PYGZcb{} else if (team2Score \PYGZgt{} team1Score) \PYGZob{}
+            lWinner.setText(\PYGZdq{}Winner: \PYGZdq{} + Team2);
+        \PYGZcb{}
+    \PYGZcb{}
+
+    public static void main(String[] args) \PYGZob{}
+        new Main().setVisible(true);
+    \PYGZcb{}
+\PYGZcb{}
+\end{Verbatim}
